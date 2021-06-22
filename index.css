@@ -170,6 +170,7 @@ header h1 {
 .product-details .product-params {
   margin: 10px 0 10px 0;
   max-width: 200px;
+  min-height: 37px;
 }
 
 .product-details .product-params span {
@@ -194,5 +195,4 @@ header h1 {
 .product-baseprice {
   font-size: 12px;
   color: #999999;
-  margin-bottom: 70px;
 }
