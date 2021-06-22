@@ -36,12 +36,16 @@ const swiper = new Swiper(".swiper-container", {
     },
     // when window width is >= 640px
     768: {
-      slidesPerView: 5,
+      slidesPerView: 3,
       spaceBetween: 30,
     },
     1024: {
-      slidesPerView: 5,
+      slidesPerView: 4,
       spaceBetween: 40,
+    },
+    1440: {
+      slidesPerView: 5,
+      spaceBetween: 50,
     },
   },
 });
